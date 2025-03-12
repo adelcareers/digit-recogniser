@@ -1,0 +1,16 @@
+echo "
+# Ignore system files
+__pycache__/
+.ipynb_checkpoints/
+
+# Ignore dataset and logs
+data/
+logs/
+
+# Ignore virtual environment (if using)
+venv/
+drenv/
+
+# Ignore model weights
+models/*.pth
+" >> .gitignore

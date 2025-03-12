@@ -1,0 +1,62 @@
+# Core dependencies
+#conda install pytorch torchvision torchaudio cpuonly -c pytorch
+
+torch==2.6.0
+torchvision
+torchaudio
+#torchvision==0.16.0
+#torchaudio==2.1.0
+
+#Data handling and preprocessing
+numpy
+pandas
+scikit-learn
+pillow  # For image handling
+
+# Web application (Streamlit)
+streamlit
+streamlit-drawable-canvas  # Drawing interface for digit input
+
+# Database connection
+psycopg2-binary # PostgreSQL driver
+
+# API development (if using FastAPI instead of Streamlit)
+fastapi
+uvicorn
+
+# Deployment and containerization
+gunicorn  # For production WSGI server
+docker  # Docker SDK for Python
+
+# Miscellaneous utilities
+matplotlib  # For visualization
+tqdm  # Progress bars
+requests  # For HTTP requests
+
+
+
+# # Data handling and preprocessing
+# numpy==1.26.0
+# pandas==2.1.0
+# scikit-learn==1.3.0
+# pillow==10.0.0  # For image handling
+
+# # Web application (Streamlit)
+# streamlit==1.30.0
+# streamlit-drawable-canvas==0.9.0  # Drawing interface for digit input
+
+# # Database connection
+# psycopg2-binary==2.9.9  # PostgreSQL driver
+
+# # API development (if using FastAPI instead of Streamlit)
+# fastapi==0.109.0
+# uvicorn==0.27.0
+
+# # Deployment and containerization
+# gunicorn==21.2.0  # For production WSGI server
+# docker==6.1.3  # Docker SDK for Python
+
+# # Miscellaneous utilities
+# matplotlib==3.8.0  # For visualization
+# tqdm==4.66.0  # Progress bars
+# requests==2.31.0  # For HTTP requests
