@@ -2,6 +2,7 @@ import torch
 import torchvision
 import torchvision.transforms as transforms
 from torch.utils.data import DataLoader
+import matplotlib.pyplot as plt
 
 def load_mnist(batch_size=64):
     """
@@ -31,9 +32,6 @@ if __name__ == "__main__":
 
 
 # show sample of the dataset
-
-
-import matplotlib.pyplot as plt
 
 # Load the dataset
 train_loader, test_loader = load_mnist()
