@@ -142,7 +142,7 @@ if __name__ == "__main__":
     test_accuracy = test_model(model, test_loader)
 
     # Save trained model
-    model_dir = "../models"
+    model_dir = "../digit-recogniser/models"
     os.makedirs(model_dir, exist_ok=True)
     model_path = os.path.join(model_dir, "mnist_cnn.pth")
     torch.save(model.state_dict(), model_path)

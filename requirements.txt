@@ -1,5 +1,9 @@
 # Core dependencies
 #conda install pytorch torchvision torchaudio cpuonly -c pytorch
+torch
+torchvision
+Pillow
+numpy
 
 torch==2.6.0
 torchvision
@@ -32,6 +36,14 @@ docker  # Docker SDK for Python
 matplotlib  # For visualization
 tqdm  # Progress bars
 requests  # For HTTP requests
+
+streamlit
+streamlit-drawable-canvas
+
+torchvision
+pillow
+
+psycopg2-binary==2.9.9
 
 
 
