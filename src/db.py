@@ -5,7 +5,7 @@ from psycopg2 import sql
 DB_CONFIG = {
     "dbname": "mnist_db",
     "user": "postgres",
-    "password": "yourpassword",
+    "password": "postgres",
     "host": "localhost",
     "port": "5432"
 }
